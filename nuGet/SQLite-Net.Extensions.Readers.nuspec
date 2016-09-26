@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>SQLite-Net.Extensions.Readers</id>
+        <version>1.1.0.39385</version>
+        <title>Extension for sqlite-net</title>
+        <authors>MACK Mathieu</authors>
+        <owners>MACK Mathieu</owners>
+        <licenseUrl>https://github.com/mathieumack/SQLite-Net.Extensions.Readers</licenseUrl>
+        <projectUrl>https://github.com/mathieumack/SQLite-Net.Extensions.Readers</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This package contains an extension for sqlite-net that let you query database with a reader.</description>
+        <tags>mvvm mvvmcross xamarin monodroid monotouch wpf netcore wp wpdev</tags>
+        <dependencies>
+          <group>
+            <!-- Always include regardless of target framework -->
+            <dependency id="sqlite-net-pcl" version="1.2.0" />
+        </group>
+        </dependencies>  
+    </metadata>
+    <files>     
+        <!-- ALL -->
+        <file src="..\SQLite-Net.Extensions.Readers\SQLite-Net.Extensions.Readers\bin\Release\SQLite-Net.Extensions.Readers.XML" target="lib\portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch" />
+        <file src="..\SQLite-Net.Extensions.Readers\SQLite-Net.Extensions.Readers\bin\Release\SQLite-Net.Extensions.Readers.dll" target="lib\portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch" />
+    </files>
+</package>
+

@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/6j1xyjwxsyp98p2i/branch/master?svg=true)](https://ci.appveyor.com/project/mathieumack/sqlite-net-extensions-readers/branch/master)
+
 # SQLite-Net.Extensions.Readers
 Extension readers for praeclarum/sqlite-net project.
 

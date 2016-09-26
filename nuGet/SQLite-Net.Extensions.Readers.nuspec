@@ -20,8 +20,8 @@
     </metadata>
     <files>     
         <!-- ALL -->
-        <file src="..\SQLite-Net.Extensions.Readers\SQLite-Net.Extensions.Readers\bin\Release\SQLite-Net.Extensions.Readers.XML" target="lib\portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch" />
-        <file src="..\SQLite-Net.Extensions.Readers\SQLite-Net.Extensions.Readers\bin\Release\SQLite-Net.Extensions.Readers.dll" target="lib\portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch" />
+        <file src="..\SQLite-Net.Extensions.Readers\bin\Release\SQLite-Net.Extensions.Readers.XML" target="lib\portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch" />
+        <file src="..\SQLite-Net.Extensions.Readers\bin\Release\SQLite-Net.Extensions.Readers.dll" target="lib\portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch" />
     </files>
 </package>
 

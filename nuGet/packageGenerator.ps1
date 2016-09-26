@@ -2,7 +2,7 @@ $location  = Get-Location
 
 $location.Path
 
-$strPath = $location.Path + '\..\SQLite-Net.Extensions.Readers\SQLite-Net.Extensions.Readers\bin\Release\SQLite-Net.Extensions.Readers.dll'
+$strPath = $location.Path + '\..\SQLite-Net.Extensions.Readers\bin\Release\SQLite-Net.Extensions.Readers.dll'
 
 $strPath
 

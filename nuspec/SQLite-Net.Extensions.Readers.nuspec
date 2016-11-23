@@ -2,7 +2,7 @@
  <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>SQLite-Net.Extensions.Readers</id>
-        <version>1.1.0.39385</version>
+        <version>{BuildNumberVersion}</version>
         <title>Extension for sqlite-net</title>
         <authors>MACK Mathieu</authors>
         <owners>MACK Mathieu</owners>
@@ -10,7 +10,7 @@
         <projectUrl>https://github.com/mathieumack/SQLite-Net.Extensions.Readers</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>This package contains an extension for sqlite-net that let you query database with a reader.</description>
-        <tags>mvvm mvvmcross xamarin monodroid monotouch wpf netcore wp wpdev</tags>
+        <tags>sqlite-net-pcl</tags>
         <dependencies>
           <group>
             <!-- Always include regardless of target framework -->

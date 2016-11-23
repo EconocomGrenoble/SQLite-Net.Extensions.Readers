@@ -3,3 +3,7 @@
 ################################################################################
 
 /SQLite-Net.Extensions.Readers/obj/Debug
+/packages
+/SQLite-Net.Extensions.Readers/bin/Release
+/SQLite-Net.Extensions.Readers/obj/Release
+/.vs/SQLite-Net.Extensions.Readers/v14

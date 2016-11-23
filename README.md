@@ -18,7 +18,7 @@ This method is available into the namespace SQLite_Net.Extensions.Readers.
 		var readerResults = connection.ExecuteReader("SELECT * FROM " + tableName);
 		Console.WriteLine("Read data from table " + tableName);
 		// Showing results :
-		foreach (var readerItem in readerItems)
+		foreach (var readerItem in readerResults)
 			Console.WriteLine(string.Join(";", readerItem.Fields.Select(e => e + ":" + readerItem[e])));
 			
 		Console.WriteLine("End read data");

@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLite-Net.Extensions.Readers", "SQLite-Net.Extensions.Readers\SQLite-Net.Extensions.Readers.csproj", "{9437D755-64EF-4968-AF4B-D9A5A9C44A42}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{4A60BBFF-D2A3-4EA6-8F13-B59AF4DBEF91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{547746D7-F84C-4F3F-8B4B-0872DD3ACFA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLite-Net.Extensions.Readers.UnitTests", "SQLite-Net.Extensions.Readers.UnitTests\SQLite-Net.Extensions.Readers.UnitTests.csproj", "{F5E6AB6D-ABCD-4F6F-ADD7-1FE6C4D81B56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,11 +21,16 @@ Global
 		{9437D755-64EF-4968-AF4B-D9A5A9C44A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9437D755-64EF-4968-AF4B-D9A5A9C44A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9437D755-64EF-4968-AF4B-D9A5A9C44A42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5E6AB6D-ABCD-4F6F-ADD7-1FE6C4D81B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5E6AB6D-ABCD-4F6F-ADD7-1FE6C4D81B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5E6AB6D-ABCD-4F6F-ADD7-1FE6C4D81B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5E6AB6D-ABCD-4F6F-ADD7-1FE6C4D81B56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9437D755-64EF-4968-AF4B-D9A5A9C44A42} = {4A60BBFF-D2A3-4EA6-8F13-B59AF4DBEF91}
+		{F5E6AB6D-ABCD-4F6F-ADD7-1FE6C4D81B56} = {547746D7-F84C-4F3F-8B4B-0872DD3ACFA6}
 	EndGlobalSection
 EndGlobal

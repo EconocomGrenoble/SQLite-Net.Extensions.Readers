@@ -7,3 +7,7 @@
 /SQLite-Net.Extensions.Readers/bin/Release
 /SQLite-Net.Extensions.Readers/obj/Release
 /.vs/SQLite-Net.Extensions.Readers/v14
+/SQLite-Net.Extensions.Readers/bin/Debug
+/SQLite-Net.Extensions.Readers.UnitTests/bin
+/SQLite-Net.Extensions.Readers.UnitTests/obj
+/TestResults

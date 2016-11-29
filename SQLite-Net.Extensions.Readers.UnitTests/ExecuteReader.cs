@@ -68,20 +68,5 @@ namespace SQLite_Net.Extensions.Readers.UnitTests
                 i++;
             }
         }
-
-        [TestMethod]
-        public void ExecuteReader_ErrorQuery()
-        {
-            // Execute reader :
-            try
-            {
-                var sumValuations = conn.ExecuteScalar<decimal>("SELECT SUM(InValidColumn) FROM Valuation");
-                Assert.Fail("An error must occured.");
-            }
-            catch (Exception ex)
-            {
-                Assert.IsTrue(ex is SQLiteException);
-            }
-        }
     }
 }

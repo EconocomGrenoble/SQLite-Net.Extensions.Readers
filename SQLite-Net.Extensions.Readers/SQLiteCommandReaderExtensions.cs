@@ -21,9 +21,11 @@ namespace SQLite_Net.Extensions.Readers
         /// <param name="cmdText">sql command</param>
         /// <param name="ps">parameters</param>
         /// <returns></returns>
-        public static IEnumerable<ReaderItem> ExecuteReader(this SQLiteConnection sqliteConn, string cmdText, params object[] ps)
+        public static IEnumerable<ReaderItem> ExecuteReader(this SQLiteConnection sqliteConn, string cmdText) 
+            // TODO : Add params into method :
+            //, params object[] ps)
         {
-            var command = sqliteConn.CreateCommand(cmdText, ps);
+            var command = sqliteConn.CreateCommand(cmdText);
 
             if (sqliteConn.Trace)
             {

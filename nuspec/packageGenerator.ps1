@@ -16,7 +16,6 @@ $strPath = $location + '\SQLite-Net.Extensions.Readers\bin\Release\SQLite-Net.Ex
 
 $VersionInfos = [System.Diagnostics.FileVersionInfo]::GetVersionInfo($strPath)
 $ProductVersion = $VersionInfos.ProductVersion
-"Product version : " + $ProductVersion -foreground "Green"
 
 write-host "Product version : " $ProductVersion -foreground "Green"
 

@@ -202,7 +202,7 @@ namespace SQLite_Net.Extensions.Readers
                 case SQLite3.ColType.Float:
                     return nullable ? typeof(double?) : typeof(double);
                 case SQLite3.ColType.Integer:
-                    return nullable ? typeof(int?) : typeof(int);
+                    return nullable ? typeof(long?) : typeof(long);
                 default:
                     return typeof(string);
             }

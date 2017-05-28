@@ -60,8 +60,8 @@ namespace SQLite_Net.Extensions.Readers.UnitTests
             int i = 1;
             foreach (var readerItem in readerResults)
             {
-                Assert.IsTrue(readerItem["Id"] is int);
-                Assert.IsTrue((int)readerItem["Id"] == i);
+                Assert.IsTrue(readerItem["Id"] is long);
+                Assert.IsTrue((long)readerItem["Id"] == i);
                 Assert.IsTrue(readerItem["Symbol"] is string);
                 Assert.IsTrue((string)readerItem["Symbol"] == "Symbol " + i);
 

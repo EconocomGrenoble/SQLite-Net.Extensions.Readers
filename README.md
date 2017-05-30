@@ -1,10 +1,16 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/6j1xyjwxsyp98p2i/branch/master?svg=true)](https://ci.appveyor.com/project/mathieumack/sqlite-net-extensions-readers/branch/master)
-
 # SQLite-Net.Extensions.Readers
 Extension readers for https://github.com/praeclarum/sqlite-net project.
 
 This extension let to query the database without binding to a specific class.
 The results are Dictionnary of <string, object>. Each key contains ColumnName, Value contains data.
+
+## Build 
+
+[![Build status](https://ci.appveyor.com/api/projects/status/6j1xyjwxsyp98p2i/branch/master?svg=true)](https://ci.appveyor.com/project/mathieumack/sqlite-net-extensions-readers/branch/master)
+
+## Nuget
+
+[![NuGet package](https://buildstats.info/nuget/SQLite-Net.Extensions.Readers?includePreReleases=true)](https://nuget.org/packages/SQLite-Net.Extensions.Readers)
 
 ## Platform Support
 

@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SQLite;
 using System.Linq;
+using System.IO;
 
 namespace SQLite_Net.Extensions.Readers.UnitTests
 {
@@ -15,7 +16,7 @@ namespace SQLite_Net.Extensions.Readers.UnitTests
         {
             var dbName = "sqldbsample";
 
-            conn = new SQLiteConnection(testContext.DeploymentDirectory + dbName);
+            conn = new SQLiteConnection(Path.Combine(Directory.GetCurrentDirectory(), dbName));
             conn.CreateTable<Stock>();
             conn.CreateTable<Valuation>();
 

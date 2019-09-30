@@ -6,6 +6,7 @@
     <PackageId>SQLite-Net.Extensions.Readers</PackageId>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <NeutralLanguage>en</NeutralLanguage>
+    <ProjectGuid>0e1510f1-da27-49ac-ba15-6101265f681c</ProjectGuid>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Product>Extension for sqlite-net</Product>
     <RepositoryType>git</RepositoryType>
